@@ -1,0 +1,29 @@
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Info__title {
+    text-align: center;
+}
+
+.Info__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Info__tel {
+    display: flex;
+    align-items: center;
+}
+
+.Info__tel p {
+    padding: 0 10px;
+}
+
+
+.Info__name {
+    padding-right: 10px;
+}

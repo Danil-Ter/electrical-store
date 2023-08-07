@@ -1,0 +1,64 @@
+.Services {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .accordionItem {
+    
+    width: 800px;
+  }
+  
+  .Services h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px;
+    width: 100%; 
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: background-color 0.2s;
+  }
+  
+  .Services h2 span {
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .Services h2:hover {
+    background-color: #ddd;
+  }
+  
+  .accordionItem p {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .accordionItem.open p {
+    max-height: 800px; 
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-animation {
+    animation: fadeIn 0.5s;
+  }
+  

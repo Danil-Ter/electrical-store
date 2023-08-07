@@ -1,0 +1,23 @@
+.welkom-container {
+  background-color: #174f69;
+  padding: 20px; 
+}
+
+.welkom {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px; 
+}
+
+.welkom img {
+  max-width: 200px; 
+  margin-right: 20px; 
+}
+
+.welkom h1 {
+  font-size: 28px; 
+}
