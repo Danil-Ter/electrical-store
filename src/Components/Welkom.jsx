@@ -8,7 +8,7 @@ function Welkom() {
   return (
     <div className="welkom-container">
       <div className="welkom">
-      <img src={lamp} alt="My Photo" />
+      <img src={lamp} alt="lamp" />
       <h1 className='welkom'>
 ЕЛЕКТРОТОВАРИ ТА НЕ ТІЛЬКИ... Ви не знайшли товар, що вас цікавить? Телефонуйте! Ми допоможемо вам.</h1>
       </div>
