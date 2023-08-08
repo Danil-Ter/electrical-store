@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer-container">
       <div className="footer">
         <div>
-           <p className="footer__logo">ТОВ Електро Південь</p>
+           <p className="footer__logo">ТОВ ЕЛЕКТРО ЮГ</p>
         </div>
         <div>
             <div className="footer__info">
@@ -20,9 +20,9 @@ function Footer() {
             </div>
         </div>
         <div>
-        <div className="footer__info">
+        <div className="footer__info footer__info-adres">
         <FaMapMarkerAlt size={20} color="orange" />
-            <p>Ринок "Староконний", вул. Раскидайлівська, 31.</p>
+            <p>Ринок "Старокінний", вул. Раскидайлівська, 31.</p>
             </div>
             <div className="footer__info">
             <FaEnvelope size={20} color="orange" />

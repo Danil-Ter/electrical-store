@@ -60,7 +60,7 @@ function Info() {
       <div className="Info__tel">
         <p>адреса:</p>
         <FaMapMarkerAlt size={20} color="orange" />
-        <p>Ринок "Староконний", вул. Раскидайлівська, 31.</p>
+        <p>Ринок "Старокінний", вул. Раскидайлівська, 31.</p>
       </div>
     </div>
   );

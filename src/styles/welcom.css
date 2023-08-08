@@ -1,5 +1,5 @@
 .welkom-container {
-  background-color: #174f69;
+  background-color: #edbf19;
   padding: 20px; 
 }
 
@@ -20,4 +20,11 @@
 
 .welkom h1 {
   font-size: 28px; 
+}
+
+
+@media (max-width: 760px) {
+  .welkom-container {
+    display: none;
+  }
 }

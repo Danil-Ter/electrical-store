@@ -38,3 +38,46 @@
     margin: 10px; 
   }
   
+@media (max-width: 768px) {
+  .Home {
+    padding: 0 15px;
+  }
+  
+  .Home h1 {
+    font-size: 28px;
+  }
+  
+  .Home p {
+    font-size: 16px;
+  }
+  
+  .Home__title {
+    font-size: 20px;
+  }
+  
+  .Home__company img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Home h1 {
+    font-size: 24px;
+  }
+  
+  .Home p {
+    font-size: 14px;
+  }
+  
+  .Home__title {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .Home__company img {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+  }
+}
