@@ -25,7 +25,7 @@ function Info() {
                 color="orange"
                 style={{ transform: "rotateY(180deg)" }}
               />
-              <p>Р067-940-75-84</p>
+              <p>048-787-94-50</p>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ function Info() {
                 color="orange"
                 style={{ transform: "rotateY(180deg)" }}
               />
-              <p>067-940-75-84</p>
+              <p>097-439-67-57</p>
             </div>
             <div className="Info__tel">
               <FaPhone
@@ -46,21 +46,25 @@ function Info() {
                 color="orange"
                 style={{ transform: "rotateY(180deg)" }}
               />
-              <p>Р067-940-75-84</p>
+              <p>048-787-27-56</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="Info__tel">
+      <div className="Info__adres">
         <p>пошта:</p>
+        <div className="Info__adres-box">
         <FaEnvelope size={20} color="orange" />
         <p>russev@ukr.net</p>
+        </div>
       </div>
-      <div className="Info__tel">
+      <div className="Info__adres">
         <p>адреса:</p>
-        <FaMapMarkerAlt size={20} color="orange" />
+        <div className="Info__adres-box">
+        <FaMapMarkerAlt size={23} color="orange" />
         <p>Ринок "Старокінний", вул. Раскидайлівська, 31.</p>
+        </div>
       </div>
     </div>
   );
