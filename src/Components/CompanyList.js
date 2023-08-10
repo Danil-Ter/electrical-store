@@ -13,7 +13,7 @@ import company12 from "../images/company/zzcm.png";
 
 export const ItemList = [
   {
-    name: "Asko",
+    name: "Аsko",
     image: company1,
   },
   {
