@@ -115,8 +115,7 @@ nav li a.active {
     position: absolute;
     top: 65px;
     left: 0;
-    background-color: #101376; 
-    padding: 20px; 
+    background-color: #101376;  
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 4px; 
     transform: translateX(-100%); 
