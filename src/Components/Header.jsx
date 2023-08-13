@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa'; 
-import '../styles/header.css';
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "../styles/header.css";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,10 +16,14 @@ function Header() {
         <div className="logo-container">
           <p>ТОВ ЕЛЕКТРО ЮГ</p>
           <div className="burger-menu" onClick={toggleMenu}>
-            {isMenuOpen ? <FaTimes className="burger-icon" /> : <FaBars className="burger-icon" />}
+            {isMenuOpen ? (
+              <FaTimes className="burger-icon" />
+            ) : (
+              <FaBars className="burger-icon" />
+            )}
           </div>
         </div>
-        <nav className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
+        <nav className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
           <ul>
             <li>
               <NavLink to="/" onClick={toggleMenu}>

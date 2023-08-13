@@ -13,7 +13,6 @@ import company10 from "../images/company/Zubr.png";
 import company11 from "../images/company/eleks.png";
 import company12 from "../images/company/zzcm.png";
 
-
 import "../styles/home.css";
 
 function Home() {

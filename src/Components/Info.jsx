@@ -55,15 +55,15 @@ function Info() {
       <div className="Info__adres">
         <p>пошта:</p>
         <div className="Info__adres-box">
-        <FaEnvelope size={20} color="orange" />
-        <p>russev@ukr.net</p>
+          <FaEnvelope size={20} color="orange" />
+          <p>russev@ukr.net</p>
         </div>
       </div>
       <div className="Info__adres">
         <p>адреса:</p>
         <div className="Info__adres-box">
-        <FaMapMarkerAlt size={23} color="orange" />
-        <p>Ринок "Старокінний", вул. Раскидайлівська, 31.</p>
+          <FaMapMarkerAlt size={23} color="orange" />
+          <p>Ринок "Старокінний", вул. Раскидайлівська, 31.</p>
         </div>
       </div>
     </div>
@@ -71,4 +71,3 @@ function Info() {
 }
 
 export default Info;
-
