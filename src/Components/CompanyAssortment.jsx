@@ -1,6 +1,7 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom'; 
 import { ItemList } from '../Components/companyData';
+import { FaArrowLeft } from 'react-icons/fa';
 import "../styles/companyAssortment.css";
 
 function CompanyAssortment() {
@@ -14,6 +15,9 @@ function CompanyAssortment() {
 
   return (
     <div className='company-assortment'>
+      <Link to="/products"> {/* Ссылка на страницу продуктов */}
+        <FaArrowLeft className="back-icon" size={20} color="orange" /> Повернутись до каталогу
+      </Link>
       <h2>{company.name}</h2>
       <h3>Ассортимент:</h3>
       <div className='company-cards'>
@@ -29,6 +33,7 @@ function CompanyAssortment() {
 }
 
 export default CompanyAssortment;
+
 
 
 
