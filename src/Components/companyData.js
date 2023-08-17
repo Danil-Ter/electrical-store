@@ -64,6 +64,16 @@ import zzcm3 from "../images/assortment/zzcm3.jpg";
 import zzcm4 from "../images/assortment/zzcm4.jpg";
 import zzcm5 from "../images/assortment/zzcm5.jpg";
 
+import bilmax1 from "../images/assortment/bilmax1.jpeg";
+import bilmax2 from "../images/assortment/bilmax2.jpeg";
+import bilmax3 from "../images/assortment/bilmax3.jpeg";
+import bilmax4 from "../images/assortment/bilmax4.jpeg";
+
+import nik1 from "../images/assortment/nik1.png";
+import nik2 from "../images/assortment/nik2.png";
+import nik3 from "../images/assortment/nik3.png";
+import nik4 from "../images/assortment/nik4.png";
+
 export const ItemList = [
   {
     name: "Аsko",
@@ -142,7 +152,7 @@ export const ItemList = [
   {
     name: "Lezard",
     assortment: [
-      { id: 1, name: "Кабелі", image: lezard1 },
+      { id: 1, name: "Промислові каучукові роз'єми", image: lezard1 },
       { id: 2, name: "Електрофурнітура", image: lezard2 },
       { id: 3, name: "Щитки ", image: lezard3 },
       { id: 4, name: "Led освітлення", image: lezard4 },
@@ -183,4 +193,25 @@ export const ItemList = [
       { id: 1, name: "ШВВП", image: zzcm5 },
     ],
   },
+  {
+    name: "Bilmax",
+    assortment: [
+      { id: 1, name: "Кабельні системи", image: bilmax1 },
+      { id: 2, name: "Щитове обладнання", image: bilmax2 },
+      { id: 3, name: "Арматура для СІП", image: bilmax3 },
+      { id: 4, name: "Монтажні елементи", image: bilmax4 },
+    ],
+  },
+  {
+    name: "Nik",
+    assortment: [
+      { id: 1, name: "Лічильники електроенергії", image: nik1 },
+      { id: 2, name: "Ящики", image: nik2 },
+      { id: 3, name: "Трансформатори струму", image: nik3 },
+      { id: 4, name: "Колодки", image: nik4 },
+    ],
+  },
 ];
+
+
+

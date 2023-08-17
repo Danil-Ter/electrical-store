@@ -10,6 +10,8 @@ import company9 from "../images/company/eleks.png";
 import company10 from "../images/company/Zubr.png";
 import company11 from "../images/company/odessakabel.png";
 import company12 from "../images/company/zzcm.png";
+import company13 from "../images/company/Bilmax.png";
+import company14 from "../images/company/Nik.png";
 
 export const ItemList = [
   {
@@ -71,5 +73,15 @@ export const ItemList = [
     id: 12,
     name: "Zzcm",
     image: company12,
+  },
+  {
+    id: 13,
+    name: "Bilmax",
+    image: company13,
+  },
+  {
+    id: 14,
+    name: "Nik",
+    image: company14,
   },
 ];
