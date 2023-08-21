@@ -64,8 +64,8 @@ function Home() {
           <img src={company9} alt="Company 9" />
           <img src={company11} alt="Company 11" />
           <img src={company12} alt="Company 12" />
-          <img src={company13} alt="Company 13" />
           <img src={company14} alt="Company 14" />
+          <img src={company13} alt="Company 13" />
         </div>
       </div>
     </div>
