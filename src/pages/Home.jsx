@@ -60,8 +60,8 @@ function Home() {
           <img src={company6} alt="Company 6" />
           <img src={company7} alt="Company 7" />
           <img src={company8} alt="Company 8" />
-          <img src={company9} alt="Company 9" />
           <img src={company10} alt="Company 10" />
+          <img src={company9} alt="Company 9" />
           <img src={company11} alt="Company 11" />
           <img src={company12} alt="Company 12" />
           <img src={company13} alt="Company 13" />
