@@ -36,9 +36,10 @@ import chint1 from "../images/assortment/chint1.jpg";
 import chint2 from "../images/assortment/chint2.jpg";
 import chint3 from "../images/assortment/chint3.jpg";
 
-import kopos1 from "../images/assortment/kopos1.jpg";
+import kopos1 from "../images/assortment/kopos1.png";
 import kopos2 from "../images/assortment/kopos2.jpg";
 import kopos3 from "../images/assortment/kopos3.jpg";
+import kopos4 from "../images/assortment/kopos4.png";
 
 import lezard1 from "../images/assortment/lezard1.jpg";
 import lezard2 from "../images/assortment/lezard2.png";
@@ -147,6 +148,7 @@ export const ItemList = [
       { id: 1, name: "Електромонтажні труби", image: kopos1 },
       { id: 2, name: "Електромонтажні кабельні канали", image: kopos2 },
       { id: 3, name: "Електромонтажні коробки", image: kopos3 },
+      { id: 4, name: "Труби гофровані електромонтажні", image: kopos4 },
     ],
   },
   {

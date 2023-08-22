@@ -19,14 +19,6 @@ function Info() {
               />
               <p>067-940-75-84</p>
             </div>
-            <div className="Info__tel">
-              <FaPhone
-                size={20}
-                color="orange"
-                style={{ transform: "rotateY(180deg)" }}
-              />
-              <p>048-787-94-50</p>
-            </div>
           </div>
         </div>
         <div className="Info__box">
@@ -39,14 +31,6 @@ function Info() {
                 style={{ transform: "rotateY(180deg)" }}
               />
               <p>097-439-67-57</p>
-            </div>
-            <div className="Info__tel">
-              <FaPhone
-                size={20}
-                color="orange"
-                style={{ transform: "rotateY(180deg)" }}
-              />
-              <p>048-787-27-56</p>
             </div>
           </div>
         </div>

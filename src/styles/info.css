@@ -23,6 +23,10 @@
     padding: 0 10px;
 }
 
+.Info__box p {
+    padding: 0 10px;
+}
+
 .Info__adres {
     display: flex;
     align-items: center;
