@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes , FaPhone} from "react-icons/fa";
 import "../styles/header.css";
 
 function Header() {
@@ -24,6 +24,16 @@ function Header() {
           </div>
         </div>
         <nav className={`nav-menu ${isMenuOpen ? "open" : ""}`}>
+        <div className="header__tel">
+            <FaPhone
+              size={20}
+              color="orange"
+              style={{ transform: "rotateY(180deg)" }}
+            />
+            <p>
+              <a href="tel:0679407584">067-940-75-84</a>
+            </p>
+          </div>
           <ul>
             <li>
               <NavLink to="/" onClick={toggleMenu}>

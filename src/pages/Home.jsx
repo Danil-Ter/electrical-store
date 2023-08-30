@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import company1 from "../images/company/askoukrem.png";
 import company2 from "../images/company/hager.png";
@@ -50,6 +51,11 @@ function Home() {
           В асортименті компанії високоякісна продукція вітчизняних та
           зарубіжних виробників.
         </p>
+        <button className="Home__link">
+              <NavLink to="/products">
+              перейти до асортименту
+              </NavLink>
+        </button>
         <h2 className="Home__title">Партнеры</h2>
         <div className="Home__company">
           <img src={company1} alt="Company 1" />

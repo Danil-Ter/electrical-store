@@ -38,6 +38,29 @@
     margin: 10px; 
   }
   
+.Home__link {
+ display: block; 
+  margin: 25px auto; 
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #e97e04;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+   text-decoration: none; 
+}
+
+.Home__link a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.Home__link:hover {
+  background-color: #ff9900;
+}
+
 @media (max-width: 768px) {
   .Home {
     padding: 0 15px;

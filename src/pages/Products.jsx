@@ -6,7 +6,7 @@ import "../styles/product.css";
 function Products() {
   return (
     <div className="products">
-      <h1 className="products-title">Продукція</h1>
+      <h1 className="products-title">В асортименті компанії високоякісна продукція вітчизняних та зарубіжних виробників</h1>
       <div className="products-cards-container">
         {ItemList.map((item, index) => (
           <Link

@@ -17,7 +17,9 @@ function Info() {
                 color="orange"
                 style={{ transform: "rotateY(180deg)" }}
               />
-              <p>067-940-75-84</p>
+               <p>
+              <a href="tel:0679407584">067-940-75-84</a>
+            </p>
             </div>
           </div>
         </div>
@@ -30,7 +32,9 @@ function Info() {
                 color="orange"
                 style={{ transform: "rotateY(180deg)" }}
               />
-              <p>097-439-67-57</p>
+              <p>
+              <a href="tel:0974396757">097-439-67-57</a>
+            </p>
             </div>
           </div>
         </div>

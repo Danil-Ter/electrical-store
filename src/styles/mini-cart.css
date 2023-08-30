@@ -1,0 +1,11 @@
+.Mini-Cart {
+    display: none;
+  }
+  
+  @media (max-width: 660px) {
+    .Mini-Cart {
+      display: block;
+      padding: 50px 0;
+    }
+  }
+  

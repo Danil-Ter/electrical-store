@@ -6,6 +6,7 @@
 .header {
   color: #fff;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   max-width: 1300px;
@@ -17,6 +18,28 @@
   display: flex;
   align-items: center;
 }
+
+.header__tel {
+  display: flex;
+  align-items: center;
+}
+
+.header__tel p {
+  font-size: 10px; 
+  margin-left: 5px; 
+}
+
+.header__tel a {
+  color: rgb(245, 243, 239);
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 18px;
+}
+
+.header__tel a:hover {
+  color: darkorange;
+}
+
 
 .header p {
   font-size: 24px;
@@ -93,7 +116,7 @@ nav li a.active {
   margin-right: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
   .burger-menu {
     display: block;
     position: absolute;
