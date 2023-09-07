@@ -75,6 +75,15 @@ import nik2 from "../images/assortment/nik2.png";
 import nik3 from "../images/assortment/nik3.png";
 import nik4 from "../images/assortment/nik4.png";
 
+import alay1 from "../images/assortment/alay1.png";
+import alay2 from "../images/assortment/alay2.png";
+import alay3 from "../images/assortment/alay3.png";
+import alay4 from "../images/assortment/alay4.png";
+import alay5 from "../images/assortment/alay5.png";
+import alay6 from "../images/assortment/alay6.png";
+import alay7 from "../images/assortment/alay7.png";
+import alay8 from "../images/assortment/alay8.png";
+
 export const ItemList = [
   {
     name: "Аsko",
@@ -213,7 +222,27 @@ export const ItemList = [
       { id: 4, name: "Колодки", image: nik4 },
     ],
   },
+  {
+    name: "Alay",
+    assortment: [
+      { id: 1, name: "Монтажні кабелі", image: alay1 },
+      { id: 2, name: "Вогнестійкі кабелі", image: alay2 },
+      { id: 3, name: "Кабелі парної скрутки фіксованого монтажу", image: alay3 },
+      { id: 4, name: "LAN-кабелі", image: alay4 },
+      { id: 5, name: "Гнучкі кабелі управління/передачі парної скрутки", image: alay5 },
+      { id: 6, name: "Контрольні кабелі", image: alay6 },
+      { id: 7, name: "Силові кабелі", image: alay7 },
+      { id: 8, name: "Вибуховий провід", image: alay8 },
+    ],
+  },
 ];
+
+
+
+
+
+
+
 
 
 

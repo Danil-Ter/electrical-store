@@ -15,6 +15,7 @@ import company11 from "../images/company/eleks.png";
 import company12 from "../images/company/zzcm.png";
 import company13 from "../images/company/Bilmax.png";
 import company14 from "../images/company/Nik.png";
+import company15 from "../images/company/alay.png";
 
 import "../styles/home.css";
 
@@ -72,6 +73,7 @@ function Home() {
           <img src={company12} alt="Company 12" />
           <img src={company13} alt="Company 13" />
           <img src={company14} alt="Company 14" />
+          <img src={company15} alt="Company 15" />
         </div>
       </div>
     </div>
